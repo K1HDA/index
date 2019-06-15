@@ -67,6 +67,21 @@ span {
   font-weight: normal;
 }
 
+.work-box {
+  width: 700px;
+  padding: 0.5em 1em;
+  color: #5d627b;
+  margin: 30px auto;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.work-box p {
+  text-align: right;
+  font-weight: normal;
+}
+
 .whats-box {
   width: 700px;
   padding: 0.5em 1em;
