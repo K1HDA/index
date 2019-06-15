@@ -1,0 +1,36 @@
+.road {
+  position: relative;
+  }
+
+.road p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+
+  color: white;/*文字は白に*/
+  font-weight: bold; /*太字に*/
+  font-size: 2em;/*サイズ2倍*/
+  font-family :Quicksand, sans-serif;/*Google Font*/
+  }
+
+.road img {
+  width: 100%;
+  }
+
+.rule {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.footer{
+  text-align: center;
+  font-size: small;
+}
