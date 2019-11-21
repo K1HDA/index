@@ -135,6 +135,11 @@ span {
   height: 50px;
 }
 
+.twitcasting{
+  width: 50px;
+  height: 50px;
+}
+
 .footer{
   text-align: center;
   font-size: small;
