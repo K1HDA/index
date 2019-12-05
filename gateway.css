@@ -11,6 +11,12 @@ body {
   background-repeat: repeat;
 }
 
+img {
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .box {
     padding: 0.5em 1em;
     margin: 1em 0;
