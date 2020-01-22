@@ -1,140 +1,38 @@
+p {
+  font-family: "ＭＳ Ｐゴシック",sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+
 body {
-  background: #eee;
-  font-family: Meiryo UI;
+  background-color: #FFF;
+  background-image: linear-gradient( transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06)), linear-gradient( 90deg, transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06) );
+  background-size: 16px 16px;
+  background-repeat: repeat;
 }
 
-span {
-  font-family: TimesNewRoman;
+img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
 }
 
-.title-box {
-  padding: 0.5em 1em;
-  color: #5d627b;
-  margin: 30px auto;
-  background: white;
-  border-top: solid 5px #5d627b;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-}
-
-.title-box p {
-  text-align: right;
-}
-
-.about-box {
-  padding: 0.5em 1em;
-  color: #5d627b;
-  margin: 30px auto;
-  background: white;
-  border-top: solid 5px #5d627b;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+.img_file{
   text-align: center;
 }
 
-.about-box h1 {
-  text-align: left;
+.box {
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 24px #5bb7ae;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
 }
 
-.about-box h3 {
-  text-align: left;
-}
-
-.about-box p {
-  text-align: right;
-}
-
-.icon {
-  width: 150px;
-  height: 150px;
-  border: 3px solid #bbb;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  margin: auto;
-}
-
-.hobby-box {
-  padding: 0.5em 1em;
-  color: #5d627b;
-  margin: 30px auto;
-  background: white;
-  border-top: solid 5px #5d627b;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-}
-
-.hobby-box p {
-  text-align: right;
-  font-weight: normal;
-}
-
-.work-box {
-  padding: 0.5em 1em;
-  color: #5d627b;
-  margin: 30px auto;
-  background: white;
-  border-top: solid 5px #5d627b;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-}
-
-.work-box p {
-  text-align: right;
-  font-weight: normal;
-}
-
-.whats-box {
-  padding: 0.5em 1em;
-  color: #5d627b;
-  margin: 30px auto;
-  background: white;
-  border-top: solid 5px #5d627b;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-}
-
-.whats-box p {
-  text-align: left;
-}
-
-.link-box {
-  padding: 0.5em 1em;
-  color: #5d627b;
-  margin: 30px auto;
-  background: white;
-  border-top: solid 5px #5d627b;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+.footer {
   text-align: center;
 }
 
-.link-box h1 {
-  text-align: left;
-}
-
-.link-box h3 {
-  text-align: left;
-}
-
-.twitter{
-  width: 50px;
-  height: 50px;
-}
-
-.pixiv{
-  width: 50px;
-  height: 50px;
-}
-
-.soundcloud{
-  width: 50px;
-  height: 50px;
-}
-
-.hatenablog{
-  width: 50px;
-  height: 50px;
-}
-
-.twitcasting{
-  width: 50px;
-  height: 50px;
-}
-
-.footer{
-  text-align: center;
+.footer p {
   font-size: small;
 }
