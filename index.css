@@ -1,6 +1,6 @@
 /* 以下モバイル用記述 */
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1600px) {
 
 p {
   font-family: "ＭＳ Ｐゴシック",sans-serif;
@@ -45,7 +45,7 @@ img {
 
 /* 以下PC用記述 */
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1600px) {
 
 p {
   font-family: "ＭＳ Ｐゴシック",sans-serif;
